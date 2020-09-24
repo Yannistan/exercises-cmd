@@ -16,6 +16,6 @@ for (let i = 0; i < nbStars; i++) {
     char += "*";
 }
 
-for (let i = nbStars; i >= 0; i--) {
+for (let i = nbStars - 1; i >= 0; i--) {
     console.log(stars[i])
 }
